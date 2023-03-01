@@ -30,6 +30,21 @@ public class Demo {
 		Lambda l = new Lambda();
 		System.out.println();
 		
+		Fields z = new Fields("Hoi", 1);
+		Bier h = new Bier();
+		z.mijnBiertje = new Bier();
+		
+		//z.Bier;
+		
+		//z.Fields(Bier rr);
+		
+		new Fields(h);
+		new Fields(new Bier());
+		System.out.println();
+		
+		MultiArrays ma = new MultiArrays();
+		
+		
 		
 		
 		
