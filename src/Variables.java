@@ -18,8 +18,11 @@ public class Variables {
 			//casting
 			short e = (short)c;
 			
+			//widening
+			c = e;
+			
 			//optellen variables
-			System.out.println(a + a);
+			System.out.println(a + a + "Hoi" + a + a);
 			System.out.println(b + b);
 			System.out.println(c + c);
 			System.out.println(d + d);
