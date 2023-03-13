@@ -21,6 +21,9 @@
         public static void main(String[] args) {
             ChildClass obj = new ChildClass();
             BaseClass ob1 = new BaseClass();
+            System.out.println("AAA");
+            BaseClass t = new ChildClass();
+            System.out.println(t.x);
             obj.printValues();
         }
     }
