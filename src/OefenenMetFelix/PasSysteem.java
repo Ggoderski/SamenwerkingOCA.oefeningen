@@ -12,6 +12,13 @@ public class PasSysteem {
 	}catch (PasjegeblokeertException e) {
 		System.out.println("Je kunt deze pas niet meer gebruiken");
 	}
+	
+	try{
+		pas.gestolenPas();
+	} catch (Exception e) {
+		System.out.println("Ik heractiveer je pas");
+	}
+	
 	}
 }
 
